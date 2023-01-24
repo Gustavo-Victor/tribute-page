@@ -1,0 +1,112 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.5;
+}
+
+/*main*/
+#main {
+    background-color: #eee;
+    margin: 30px 8px;
+    padding: 15px;
+}
+
+#main #title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 1.7rem 0 1.5rem 0;
+}
+
+#main #description {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+#main #img-div {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#main #img-div #image{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+#main #img-div #img-caption{
+    font-size: 1rem;
+    margin: 1.1rem 0 0.6rem 0;
+}
+
+
+/*tribute info*/
+#main #tribute-info {
+    font-size: 1rem;
+}
+
+#main #tribute-info li, #main #tribute-info #cite {
+    letter-spacing: 1px;
+}
+
+#main #tribute-info #headline{
+    margin: 3.125rem 0;
+    font-size: 1.17rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#main #tribute-info #biography {
+    list-style-type: disc;
+    margin: 0 auto 50px;
+    width: 70%;
+    max-width: 550px;
+    line-height: 1.6;
+}
+
+#main #tribute-info #biography li{
+    margin: 1rem 0;   
+    width: 100%;
+    list-style-position: inside;
+}
+
+#main #tribute-info #biography strong{
+    font-weight: bold;
+}
+
+#main #tribute-info #cite {
+    max-width: 550px;
+    font-style: italic;
+    text-align: left;
+    margin: 3.125rem auto;
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+#main #tribute-info #more-information {
+    text-align: center;
+    font-size: 1.17rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+#main #tribute-info #more-information #tribute-link{
+    color: dodgerblue
+}
